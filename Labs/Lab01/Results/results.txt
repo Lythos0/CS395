@@ -1,0 +1,8 @@
+Lab 01 Results
+==================================
+Task 01		03.00/03.00
+Task 02		01.85/02.00
+==================================
+Total		04.85/05.00
+
+* Task 02 returns of both function are inaccurate.
