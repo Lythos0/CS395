@@ -1,0 +1,22 @@
+1. Using 011 as an example. 011 starts as QEE
+With an input of 0 it becomes QOE (odd 0s, even 1s)
+Then with a 1 it becomes QOO (odd 0s odd 1s)
+With another 1 it becomes QOE (odd 0s, even 1s)
+QOE is not QEO therefore it is not what we want. 
+
+
+2. With 101 we begin in QEE 
+Input 1 gives us QEO
+Input 0 gives us QOO
+Input 1 gives us QOE
+
+QOE is not QEO so we reject this string
+
+
+
+3. With 111 we begin in QEE
+Input 1 gives us QEO
+Input 1 gives us QEE
+Input 1 gives us QEO
+
+QEO = QEO which matches what we're looking for.
