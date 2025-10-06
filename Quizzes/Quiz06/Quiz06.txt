@@ -1,0 +1,5 @@
+1. 0110 passes as it lands on q3.
+2. 101 passes as it lands on q1.
+3. 1001 does not pass as it goes back to q0.
+4. 101010 passes as it goes to q3
+5. 00110 passes as it lands on q2
