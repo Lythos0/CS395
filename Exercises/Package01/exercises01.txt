@@ -1,0 +1,31 @@
+1. The set is the numbers that are multiples of both 2 and 3, therefore just multiples of 6.
+ Members are 6,12,18,24,30
+ Non-members are 1,2,3,4,5
+
+
+ 2. (a) A is 10 to the power of n, where n = 0,1,2,3,4
+ A = {1,10,100,1000,10000}
+   
+   (b) B is the set of natural numbers that are less than or equal to 20 that can't be factored into two smaller natural numbers.
+   B = {1,2,3,5,7,11,13,17,19}
+
+   3. S = {1,2,3,4,5,6}, A = {1,2,3}, B = {1,2,4}
+   (a) A ∪ B: all elements in A or B = {1,2,3,4}
+   (b) A ∩ B: all elements in both A and B = {1,2}
+   (c) A - B: elements in A but not in B = {3}
+   (d) B': elements in S but not in B = {3,5,6}
+   (e) B-A':
+   A' = S - A = {4,5,6}
+   B - A' = elements in B but not in A' = {1,2}
+
+   4. A x B: all pairs  (a,b) where a ∈ A, b ∈ B
+    = {(a,i),(a,j),(a,k),(b,i),(b,j),(b,k),(c,i),(c,j),(c,k),(d,i),(d,j),(d,k)}
+      B x A: all pairs (b,a) where b ∈ B, a ∈ A
+      = {(i,a),(i,b),(i,c),(i,d),(j,a),(j,b),(j,c),(j,d),(k,a),(k,b),(k,c),(k,d)
+
+
+    5. p(C)is the power set of C (all subsets of C)
+      Since C has 4 elements, |p(C)| = 2^4 = 16. 
+      p(C) ={∅,{a},{b},{c},{d},{a,b},{a,c},{a,d},{b,c},{b,d},{c,d},{a,b,c},{a,b,d},{a,c,d},{b,c,d},{a,b,c,d}}
+
+
