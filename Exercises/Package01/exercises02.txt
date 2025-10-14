@@ -1,0 +1,85 @@
+1. 
+
+(a) f:A -> D that is a surjection, meaning every element in D needs to be mapped to at least once.
+A has 5 elements while D has 3.
+This is possible because |A| > |D|
+
+(b) g: B -> C that is an injection, meaning all elements in B map to different elements in C.
+B has 5 elements while C has 6.
+This is possible because |C| is greater than or equal to |B|
+
+(c) h: C -> D that is not a surjection because some elements of D is not mapped to.
+C has 6 elements and D has 3.
+
+(d) i: A -> B that is a bijection because both sets have the same numbers of elements.
+|A| = 5, |B| = 5.
+
+
+(e) j: C -> B that is a bijection
+|C| = 6, |B| = 5, different sizes.
+This is impossible to be a bijection.
+
+
+2.
+a) Domain = all possible inputs
+f's domain: {2,3,5,7} (just the numbers in A)
+g's domain: all combinations of A and B: {(2,0),(2,1),(2,2),(2,3),(3,0),(3,1),(3,2),(3,3),(5,0),(5,1),(5,2),(5,3),(7,0),(7,1),(7,2),(7,3)}
+
+b) Codomain = where outputs can go
+Both: {0,1,2,3} (the set B)
+
+c) Range = actual outputs we get
+f's range: {0,2,3} (calculated from f(x) = (3x+1) mod 4)
+g's range: {0,1,2,3} (g produces all possible outputs)
+
+d) f(x) values:
+f(2)=3, f(3)=2, f(5)=0, f(7)=2
+
+e) g(x,y) for specific values:
+g(5,2)=3, g(5,3)=3, g(7,2)=3, g(7,3)=1
+
+3. 
+Two groups:
+Self-inverse permutations: identity, swaps like (1 2), and pairs of swaps like (1 2)(3 4)
+Not self-inverse: 3-cycles like (1 2 3), 4-cycles like (1 2 3 4)
+
+4. 
+a) Reflexive & symmetric but not transitive:
+All self-pairs + (1,2),(2,1),(2,3),(3,2)
+
+Reflexive: every number relates to itself
+Symmetric: if (1,2) then (2,1)
+Not transitive: (1,2) and (2,3) but no (1,3)
+
+b) Reflexive & transitive but not symmetric:
+All self-pairs + (1,2)
+
+Reflexive: Yes
+Transitive: only one extra pair, no chain
+Not symmetric: (1,2) but no (2,1)
+
+c) Symmetric & transitive but not reflexive:
+Empty relation {}
+Symmetric: no pairs to check
+Transitive: no pairs to check
+Not reflexive: no self-pairs
+
+d) Equivalence relation:
+All self-pairs only {(1,1),(2,2),...,(10,10)}
+Reflexive, symmetric, transitive
+
+e) Partial ordering:
+All self-pairs only
+Reflexive, antisymmetric, transitive
+
+5. 
+a) Make reflexive: Add missing self-pairs
+Add (b,b), (c,c), (d,d)
+
+b) Make symmetric: Add reverse of each pair
+Add (b,a), (d,b), (c,d)
+
+c) Make transitive: Add pairs to complete chains
+(a,b) + (b,d) → add (a,d)
+(b,d) + (d,c) → add (b,c)
+(a,d) + (d,c) → add (a,c)
