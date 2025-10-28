@@ -1,0 +1,20 @@
+States: q0, q1, q_err
+Alphabet: L, U, S, D, O
+Start: q0
+Accept: q1
+Transitions:
+q0 L -> q1
+q0 U -> q1
+q0 S -> q1
+q0 D -> q_err
+q0 O -> q_err
+q1 L -> q1
+q1 U -> q1
+q1 S -> q1
+q1 D -> q1
+q1 O -> q_err
+q_err L -> q_err
+q_err U -> q_err
+q_err S -> q_err
+q_err D -> q_err
+q_err O -> q_err
