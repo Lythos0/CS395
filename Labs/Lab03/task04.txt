@@ -1,0 +1,55 @@
+States: q0, q0_25, q0_5, q0_75, q1, q1_25, q1_5, q1_75, q2, qE
+Alphabet: Q, 1, S, C
+Start state: q0
+Accepting states: q1, q1_5, q1_75, q2
+Transitions:
+
+q0 Q -> q0_25
+q0 1 -> q1
+q0 S -> qE
+q0 C -> q0
+
+q0_25 Q -> q0_5
+q0_25 1 -> q1_25
+q0_25 S -> qE
+q0_25 C -> q0
+
+q0_5 Q -> q0_75
+q0_5 1 -> q1_5
+q0_5 S -> qE
+q0_5 C -> q0
+
+q0_75 Q -> q1
+q0_75 1 -> q1_75
+q0_75 S -> qE
+q0_75 C -> q0
+
+q1 Q -> q1_25
+q1 1 -> q2
+q1 S -> qE
+q1 C -> q0
+
+q1_25 Q -> q1_5
+q1_25 1 -> q2
+q1_25 S -> qE
+q1_25 C -> q0
+
+q1_5 Q -> q1_75
+q1_5 1 -> q2
+q1_5 S -> qE
+q1_5 C -> q0
+
+q1_75 Q -> q2
+q1_75 1 -> qE
+q1_75 S -> qE
+q1_75  C-> q0
+
+q2 Q -> qE
+q2 1 -> qE
+q2 S -> q2
+q2 C -> q0
+
+qE Q -> qE
+qE 1 -> qE
+qE S -> qE
+qE C -> q0
