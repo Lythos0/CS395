@@ -1,0 +1,9 @@
+1. They can recognize the same language.
+
+2. Q2 which is also the start of NFA (N)
+
+3. It goes to an empty set
+
+4. All possible subsets of the NFA's states.
+
+5. It will go to a singular state.
