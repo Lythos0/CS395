@@ -1,0 +1,9 @@
+1. It means one or multiple repetitions of R.
+
+2. 101 + 110 + 011 + 010
+
+3. Star > Concatenation > Union 
+
+4. An empty string Epsilon
+
+5. All single symbols from the alphabet
