@@ -1,0 +1,8 @@
+1. Q = Q1 U Q2
+
+2. F = F2
+
+3. By making the new starting state an accept state.
+
+4. From every state in F1 to the start of M2
+
