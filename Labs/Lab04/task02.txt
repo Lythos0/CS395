@@ -1,0 +1,15 @@
+Task 2.
+States: q0, q1, q2, q3, q4
+Start: q0
+Accept: q2
+
+q0 on 0 → q4
+q0 on 1 → q1
+q1 on 0 → q2
+q1 on 1 → q2
+q2 on 0 → q3
+q2 on 1 → q3
+q3 on 0 → q2
+q3 on 1 → q2
+q4 on 0 → q4
+q4 on 1 → q4
