@@ -1,0 +1,20 @@
+Start with q0
+Accepts strings such as 000100 and 001100
+Accept State q6
+
+
+Transitions:
+q0,0 -> q1
+q0,1 -> dead
+q1,0 -> q2
+q1,1 -> dead
+q2,1 -> q3
+q2,0 -> dead
+q3,1 -> q3
+q3,0 -> q5
+q5,0 -> q6
+q5,1 -> dead
+q6,0 -> dead
+q6,1 -> dead
+dead,0 -> dead
+dead,1 -> dead
