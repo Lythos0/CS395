@@ -1,0 +1,13 @@
+States: q0, q1, q2, q_accept
+Start: q0
+Accept: q_accept
+
+Transitions:
+q0,0-> q2
+q0,1-> q1
+q1,0-> q_accept
+q1,1-> q_accept
+q2,0-> q2
+q2,1-> q_accept
+q_accept,0 -> q_accept
+q_accept,1-> q_accept
