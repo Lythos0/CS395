@@ -13,4 +13,5 @@ q2 -> epsilon -> q_accept
 q3 -> 0 -> q3
 q3 -> 1 -> q2
 
-Final RE: (01*0)* 1(0|1)*
+Final RE: (01*0)*10*(10*10*)*
+
