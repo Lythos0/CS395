@@ -1,0 +1,14 @@
+DFA M
+
+Q = q_start, x, y, z, q_accept
+
+q_start -> epsilon -> x
+x -> 0 -> x
+x -> 1 -> y
+y -> 0 -> x
+y -> 1 -> z
+z -> 0 -> x
+z -> 1 -> z
+z -> epsilon -> q_accept
+
+Final RE: (0|1)*11+
