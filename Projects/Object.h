@@ -1,6 +1,5 @@
 #ifndef OBJECT_H
 #define OBJECT_H
-
 #include <iostream>
 #include <string>
 #include <sstream>
