@@ -148,7 +148,7 @@ bool DFA::isValid() const {
     return true;
 }
 
-//Display Formal DFA
+//Displays Formal DFA
 void DFA::displayFormal() const {
     cout << "Q: ";
     for (auto s : Q) cout << s << " ";
@@ -170,7 +170,7 @@ void DFA::displayFormal() const {
     }
 }
 
-//Run String
+//Runs String
 bool DFA::runString(const string& input) const {
     string current = q0;
     for (char c : input) {
@@ -181,7 +181,7 @@ bool DFA::runString(const string& input) const {
     return find(F.begin(), F.end(), current) != F.end();
 }
 
-// Display Computation
+// Displays Computation
 void DFA::displayComputation(const string& input) const {
     string current = q0;
     cout << "Initial state: " << current << endl;
