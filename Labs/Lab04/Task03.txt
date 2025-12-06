@@ -1,13 +1,14 @@
-States: q0, q1, q2, q_accept
+States: q0, q1, q2, q3, q4
 Start: q0
-Accept: q_accept
+Accept: q0, q3
 
-Transitions:
-q0,0-> q2
-q0,1-> q1
-q1,0-> q_accept
-q1,1-> q_accept
-q2,0-> q2
-q2,1-> q_accept
-q_accept,0 -> q_accept
-q_accept,1-> q_accept
+q0 on 0 → q1
+q0 on 1 → q2
+q1 on 0 → q4
+q1 on 1 → q3
+q2 on 0 → q3
+q2 on 1 → q3
+q3 on 0 → q1
+q3 on 1 → q2
+q4 on 0 → q4
+q4 on 1 → q4
