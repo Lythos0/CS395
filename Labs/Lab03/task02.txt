@@ -11,12 +11,12 @@ q0 T-> q0
 q1 A-> q2
 q1 G-> q1
 q1 T-> q0
-q1 C-> q0
+q1 C-> p1
 
 q2 T-> q3
 q2 A-> q0
 q2 G-> q1
-q2 C-> q0
+q2 C-> p1
 
 q3 C-> q4
 q3 A-> q0
@@ -40,7 +40,7 @@ p2 G-> q1
 
 p3 G-> p4
 p3 A-> q0
-p3 T-> p2
+p3 T-> q0
 p3 C-> p1
 
 p4 A-> p4
