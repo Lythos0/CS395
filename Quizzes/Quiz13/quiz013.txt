@@ -1,0 +1,6 @@
+S0 -> S
+S -> AB | BC
+A -> aA | a | ε
+B -> bB | b | D
+C -> cC | c
+D -> AD | d
