@@ -1,0 +1,9 @@
+S0 -> AB | BC | X_bB | b | AD | d
+S -> AB | BC | X_bB | b | AD | d
+A -> X_aA | a
+B -> X_bB | b | AD | d
+C -> X_cC | c
+D -> AD | d
+X_a -> a
+X_b -> b
+X_c -> c
