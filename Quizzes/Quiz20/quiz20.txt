@@ -1,4 +1,3 @@
-//Cortney McMillan 12/12/25
 P = (Q, Σ, Γ, δ, q0, Z0, F)
 Q = {q0, q1, q2, qf}
 Σ = {0, 1}
