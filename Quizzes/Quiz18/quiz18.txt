@@ -1,0 +1,12 @@
+Q = {q_even, q_odd}
+Σ = {0, 1}
+Γ = {Z}
+q0 = q_even
+Z0 = Z
+F = {q_even}
+
+Transitions:
+δ(q_even, 0, Z) = {(q_even, Z)}
+δ(q_even, 1, Z) = {(q_odd, Z)}
+δ(q_odd,  0, Z) = {(q_odd, Z)}
+δ(q_odd,  1, Z) = {(q_even, Z)}
