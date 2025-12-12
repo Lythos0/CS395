@@ -1,0 +1,18 @@
+(a) 100  
+q0 (1) → q0 (0) → q1 (0) → q2 (0) → qf  
+Accepts
+
+(b) 1100  
+q0 (1) → q0 (1) → q0 (0) → q1 (0) → q1 (ε) → q2 
+Rejects
+
+(c) 0  
+q0 (0) → qf  
+Accepts
+
+(d) 001  
+q0 (0) → qf (no transitions afterwards) → Rejects
+
+(e) 11000  
+q0 (1) → q0 (1) → q0 (0) → q1 (0) → q1 (0) → q2 (0) → qf  
+Accepts
